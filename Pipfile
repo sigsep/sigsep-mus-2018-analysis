@@ -1,0 +1,26 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+pandas = "*"
+seaborn = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+simplejson = "*"
+jupyter = "*"
+scikit-posthocs = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
