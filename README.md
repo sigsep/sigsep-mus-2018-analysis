@@ -24,10 +24,15 @@ or use a parent folder and bash wildcards
 python aggregate.py ./ESTIMATES/* --out sisec18.pd
 ```
 
-### Plots and Statiscial Analysis
+### Plots and Statistical Analysis
 
-[Please see jupyter notebook](museval18-analysis.ipynb)
+We provide a [jupyter notebook](museval18-analysis.ipynb) that includes all the results that were used to create the SiSEC evaluation. Also you can run the notebook on [google colab](https://drive.google.com/file/d/1DoGm0WizK_jmgdo1lSVAQRTMESNr6IyO/view?usp=sharing).
+
 
 ### SiSEC 18 Paper Plots
+
+t.b.a
+
+### SiSEC 18 Paper
 
 t.b.a
