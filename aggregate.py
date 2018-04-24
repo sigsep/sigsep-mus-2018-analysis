@@ -27,6 +27,7 @@ def museval2df(json_path):
             value_vars=['SDR', 'SAR', 'ISR', 'SIR']
         )
         df['track'] = json_path.stem
+        df = df.rename(index=str, columns={"name": "target"})
         return df
 
 
@@ -39,7 +40,7 @@ def aggregate(input_dirs, output_path=None):
             json_paths = p.glob('**/*.json')
             for json_path in json_paths:
                 df = museval2df(json_path)
-                df['estimate'] = p.stem
+                df['method'] = p.stem
                 data.append(df)
 
     df = pd.concat(data, ignore_index=True)
